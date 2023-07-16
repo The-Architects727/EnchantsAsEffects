@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "enchantmenteffects",
+	"version": "${version}",
+	"name": "Enchantment Effects",
+	"description": "This mod converts 9 Enchantments to Effects",
+	"authors": [
+		"architects"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.architects.enchantmenteffects.EnchantmentEffectsMod"
+		]
+	},
+	"mixins": [
+		"enchanmenteffectsmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"minecraft": "1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

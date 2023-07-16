@@ -1,0 +1,20 @@
+accessWidener	v1	named
+
+accessible method net/minecraft/entity/LivingEntity getBaseMovementSpeedMultiplier ()F
+accessible method net/minecraft/entity/Entity getVelocityAffectingPos ()Lnet/minecraft/util/math/BlockPos;
+accessible method net/minecraft/entity/LivingEntity shouldSwimInFluids ()Z
+accessible method net/minecraft/entity/LivingEntity getFallSound (I)Lnet/minecraft/sound/SoundEvent;
+accessible method net/minecraft/entity/passive/VillagerEntity prepareOffersFor (Lnet/minecraft/entity/player/PlayerEntity;)V
+accessible field net/minecraft/entity/effect/StatusEffect attributeModifiers Ljava/util/Map;
+accessible field net/minecraft/entity/player/PlayerEntity inventory Lnet/minecraft/entity/player/PlayerInventory;
+accessible method net/minecraft/entity/LivingEntity applyMovementEffects (Lnet/minecraft/util/math/BlockPos;)V
+accessible method net/minecraft/entity/LivingEntity shouldRemoveSoulSpeedBoost (Lnet/minecraft/block/BlockState;)Z
+accessible method net/minecraft/entity/Entity getLandingBlockState ()Lnet/minecraft/block/BlockState;
+accessible method net/minecraft/entity/LivingEntity removeSoulSpeedBoost ()V
+accessible method net/minecraft/entity/LivingEntity addSoulSpeedBoostIfNeeded ()V
+accessible field net/minecraft/entity/LivingEntity SOUL_SPEED_BOOST_ID Ljava/util/UUID;
+accessible method net/minecraft/entity/LivingEntity isOnSoulSpeedBlock ()Z
+accessible field net/minecraft/entity/player/PlayerEntity abilities Lnet/minecraft/entity/player/PlayerAbilities;
+accessible method net/minecraft/entity/player/PlayerEntity clipAtLedge ()Z
+accessible method net/minecraft/entity/player/PlayerEntity method_30263 ()Z
+accessible method net/minecraft/entity/LivingEntity getNextAirUnderwater (I)I
